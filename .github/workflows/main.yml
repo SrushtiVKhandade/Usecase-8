@@ -1,11 +1,11 @@
  name: Create Release
 
-on:
+ on:
   push:
     tags:
       - 'v*.*.*'  # Triggers the workflow on version tags like v1.0.0
 
-jobs:
+ jobs:
   create_release:
     runs-on: ubuntu-latest
  
